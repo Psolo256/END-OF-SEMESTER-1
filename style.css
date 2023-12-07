@@ -34,6 +34,15 @@ section {
   z-index: -1;
   opacity: 0.5;
 }
+#WIG{
+height: 90PX;
+}
+#JULARY{
+    height: 90PX;
+    }
+ #BAG{
+        height: 90PX;
+        }
 
 img.profile-pic {
   width: 130px;
