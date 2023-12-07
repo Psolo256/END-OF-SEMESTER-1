@@ -3,28 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sheila Pink's Profile</title>
+  <title>Sheila Pink's Fashion Profile</title>
+  <link rel="stylesheet" href="style.css">
 
 </head>
-<link rel="stylesheet" href="style.css">
-
 <body>
 
   <header>
-    <h1>Sheila Pink's Profile</h1>
+    <h1>Sheila Pink's Fashion Profile</h1>
   </header>
 
   <section>
-    <img src="sheila.jpg" alt="Sheila Pink's profile picture">
+    <img src="sheila.jpg" alt="Sheila Pink's profile picture" class="profile-pic">
     <h1>Sheila Pink</h1>
-    <p>Web Developer</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod consequat justo, vel commodo urna auctor eu.</p>
+    <p>Fashion Enthusiast</p>
+    <p>Explore the world of style and elegance with Sheila Pink. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod consequat justo, vel commodo urna auctor eu.</p>
     <button onclick="showContact()">Contact Sheila</button>
     <div id="contactInfo" style="display: none;">
       <p>Email: sheila@example.com</p>
       <p>Phone: +1 123-456-7890</p>
     </div>
+
+    <div class="additional-info">
+      <p>Check out Sheila's latest fashion inspirations:</p>
+      <img src="BAG.png" alt="Fashion 1" id="BAG">
+      <img src="JULARY.png" alt="Fashion 2" id="JULARY">
+      <img src="WIG.png" alt="Fashion 3" id="WIG">
+    </div>
   </section>
+
+  <img src="fashion.jpg" alt="fashion" id="backi">
 
   <script>
     function showContact() {
