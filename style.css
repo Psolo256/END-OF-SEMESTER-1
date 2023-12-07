@@ -104,19 +104,8 @@ header {
     padding: 1em;
 }
 
-/* Image Cards Section */
-.card {
-    margin-bottom: 20px;
-}
-
-/* Testimonials Section */
-.testimonial-card {
-    margin-bottom: 20px;
-}
-
-/* Footer styles */
 footer {
-    background-color: #960c0c;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em;
