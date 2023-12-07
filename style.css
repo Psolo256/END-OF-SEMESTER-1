@@ -1,4 +1,4 @@
-<style>
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: rgb(96, 12, 12);
   color: #fff;
   text-align: center;
   padding: 1em;
@@ -34,15 +34,6 @@ section {
   z-index: -1;
   opacity: 0.5;
 }
-#WIG{
-height: 90PX;
-}
-#JULARY{
-    height: 90PX;
-    }
- #BAG{
-        height: 90PX;
-        }
 
 img.profile-pic {
   width: 130px;
@@ -53,8 +44,12 @@ img.profile-pic {
 }
 
 h1 {
-  color: #333;
+  color: #ffffff;
   margin-top: 15px;
+}
+
+h4 {
+  color: #333;
 }
 
 p {
@@ -86,4 +81,3 @@ button:hover {
   width: 80px;
   margin: 10px;
 }
-</style>

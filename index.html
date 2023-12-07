@@ -4,35 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sheila Pink's Fashion Profile</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
   <header>
-    <h1>Sheila Pink's Fashion Profile</h1>
+    <strong><h1>Sheila Pink's Fashion Profile</h1></strong>
   </header>
 
-  <section>
-    <img src="sheila.jpg" alt="Sheila Pink's profile picture" class="profile-pic">
-    <h1>Sheila Pink</h1>
-    <p>Fashion Enthusiast</p>
-    <p>Explore the world of style and elegance with Sheila Pink. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod consequat justo, vel commodo urna auctor eu.</p>
-    <button onclick="showContact()">Contact Sheila</button>
-    <div id="contactInfo" style="display: none;">
-      <p>Email: sheila@example.com</p>
-      <p>Phone: +-256-7-088-15-846</p>
-    </div>
+  <div class="container">
+    <section class="jumbotron">
+      <img src="sheila.jpg" alt="Sheila Pink's profile picture" class="profile-pic mx-auto d-block">
+      <h1 class="text-center">Sheila Pink</h1>
+      <h4 class="text-center">Fashion Enthusiast</h4>
+      <p class="text-center">Explore the world of style and elegance with Sheila Pink. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod consequat justo, vel commodo urna auctor eu.</p>
+      <button class="btn btn-dark btn-lg btn-block" onclick="showContact()">Contact Sheila</button>
+      <div id="contactInfo" style="display: none;">
+        <p>Email: sheila@example.com</p>
+        <p>Phone: +-256-7-088-15-846</p>
+      </div>
 
-    <div class="additional-info">
-      <p>Check out Sheila's latest fashion inspirations:</p>
-      <img src="BAG.png" alt="Fashion 1" id="BAG">
-      <img src="JULARY.png" alt="Fashion 2" id="JULARY">
-      <img src="WIG.png" alt="Fashion 3" id="WIG">
-    </div>
-  </section>
+      <div class="additional-info">
+        <p class="text-center">Check out Sheila's latest fashion inspirations:</p>
+        <div class="d-flex justify-content-center">
+          <img src="BAG.png" alt="Fashion 1" id="BAG">
+          <img src="JULARY.png" alt="Fashion 2" id="JULARY">
+          <img src="WIG.png" alt="Fashion 3" id="WIG">
+        </div>
+      </div>
+    </section>
+  </div>
 
   <img src="fashion.jpg" alt="fashion" id="backi">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <script>
     function showContact() {
